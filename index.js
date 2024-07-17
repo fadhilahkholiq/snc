@@ -5,7 +5,7 @@ const bs58 = require("bs58");
 const prompts = require('prompts');
 const nacl = require("tweetnacl");
 
-const captchaKey = 'INSERT_YOUR_2CAPTCHA_KEY_HERE';
+const captchaKey = 'b714f6983cb600c49642dbdbba5c38ac';
 const rpc = 'https://devnet.sonic.game/';
 const connection = new sol.Connection(rpc, 'confirmed');
 const keypairs = [];
